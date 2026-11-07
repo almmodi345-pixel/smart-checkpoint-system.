@@ -1,0 +1,5 @@
+{
+  "name": "Smart Checkpoint Environment",
+  "image": "mcr.microsoft.com/devcontainers/python:3.10",
+  "postCreateCommand": "pip install fastapi uvicorn pydantic pandas jinja2 python-multipart"
+}
